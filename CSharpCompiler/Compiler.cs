@@ -29,7 +29,7 @@ namespace CSharpCompiler
 
             tbResult.Text = "";
             CompilerParameters parameters = new CompilerParameters();
-            //Make sure we generate an EXE, not a DLL
+            // Make sure we generate an EXE, not a DLL
             parameters.GenerateExecutable = true;
             parameters.OutputAssembly = Output;
             // parameters.CompilerOptions = "/target:exe /optimize /win32icon:Eva.ico";
