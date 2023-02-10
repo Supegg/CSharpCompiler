@@ -1,0 +1,7 @@
+# csc自动加载当前目录下 csc.rsp，如果存在的话
+# csc自动加载全局 csc.rsp，在csc.exe同级目录
+# 加载指定rsp文件
+/target:winexe 
+/out:Starter.exe
+/r:WinForm.exe
+/win32icon:..\CSharpCompiler\Eva.ico
